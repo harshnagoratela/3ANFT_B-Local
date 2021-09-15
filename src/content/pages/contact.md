@@ -1,9 +1,6 @@
 ---
 template: contact-page
 slug: /contact
-title: Get in touch
+title: Get in touch with 3A NFT
 ---
-
-Got a burning question regarding **JAMstack**, Need a new **Website**, or just anything in general. We are happy to talk.
-
-Just send us a message using the form below or you can send us a DM on [Twitter](https://twitter.com/stackrole)
+Contact us about if you're interestsed in discussing an NFT project, have a tool that can help non-fungible token collectors, or have other inquiries for All About Affordable NFTs.
