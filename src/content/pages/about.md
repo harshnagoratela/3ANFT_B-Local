@@ -3,8 +3,6 @@ template: about-page
 slug: /about
 title: About 3A NFT Podcast
 ---
-Thank you! Now say "nuclear wessels"! No! Don't jump! A sexy mistake. Anyone who laughs is a communist!
+All About Affordable NFT podcast is here to help folks go from 0 to 60 with NFTs without breaking the bank. 
 
-A true inspiration for the children. And when we woke up, we had these bodies. Moving along… Do a flip! Michelle, I don't regret this, but I bth rue and lament it.
-
-![Toys](/assets/vanessa-bucceri-gdirwiyama8-unsplash.jpg "Toys")
+![Toys](/assets/3anft-logo-1-.png "Toys")
