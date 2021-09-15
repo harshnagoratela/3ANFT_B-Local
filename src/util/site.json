@@ -1,12 +1,12 @@
 {
   "meta": {
-    "title": "Foundation",
+    "title": "3A NFT Podcast | All About Affordable NFTs",
     "titleTemplate": "%s",
-    "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
-    "siteUrl": "https://foundation.stackrole.com",
-    "image": "/assets/stackrole.png",
-    "iconimage": "/assets/stackrole.png",
-    "twitterUsername": "@stackrole"
+    "description": "Learn about the non-fungible token market...",
+    "siteUrl": "https://3Anft.com",
+    "image": "/assets/3anft-logo-1-.png",
+    "iconimage": "/assets/3anft-logo-1-.png",
+    "twitterUsername": "@3anft"
   },
   "ga": "UA-XXXXXXXXX-X"
 }
