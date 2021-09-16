@@ -2,14 +2,15 @@
 template: index-page
 slug: /
 title: All About Affordable NFTs
-tagline: "A podcast about non-fungible tokens "
+tagline: All About Affordable NFT podcast is here to help folks go from 0 to 60
+  with NFTs without breaking the bank
 featuredImage: /assets/3anft-logo-1-.png
 cta:
-  ctaText: Listen
+  ctaText: Learn More
   ctaLink: /about
 ---
-A podcast about non-fungible tokens
+All About Affordable NFT podcast is here to help folks go from 0 to 60 with NFTs without breaking the bank
 
+![3A NFT Logo | All About Affordable NFTs](/assets/3anft-logo-1-.png "3A NFT Logo | All About Affordable NFTs")
 
-
-![](/assets/download-14-.png)
+![3A NFTs | All About Affordable NFTs](/assets/download-14-.png "3A NFTs | All About Affordable NFTs")
