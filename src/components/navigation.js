@@ -16,7 +16,7 @@ const MenuItems = [
   },
   {
     path: "/resources",
-    title: "resources",
+    title: "Resources",
   },
   {
     path: "/contact",
