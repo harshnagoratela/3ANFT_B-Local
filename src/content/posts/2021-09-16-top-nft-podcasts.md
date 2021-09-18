@@ -8,10 +8,10 @@ description: "Check out the 3aNFT list of the top NFT podcasts. Listen and learn
 ---
 Check out the 3aNFT list of the top NFT podcasts. Listen and learn to the best podcasts about collecting non-fungible tokens. 
 
-
-
 * Into the Ether
 * The Nifty Show
 * Zima Red
 * Bankless
 * Modern Finance
+* Floor is Rising
+* Proof
