@@ -224,6 +224,7 @@ const HomePage = ({ data }) => {
               <RiArrowRightSLine />
             </span>
           </Link>
+            {/*
           <div
             className="social-icons"
             sx={{
@@ -232,6 +233,7 @@ const HomePage = ({ data }) => {
           >
             {sIcons}
           </div>
+          */}
         </div>
         {/*
         <div>
@@ -245,7 +247,7 @@ const HomePage = ({ data }) => {
             ""
           )}
         </div>
-      */} 
+      */}
       </div>
       <BlogListHome data={posts} />
     </Layout>
