@@ -233,6 +233,7 @@ const HomePage = ({ data }) => {
             {sIcons}
           </div>
         </div>
+        {/*
         <div>
           {Image ? (
             <GatsbyImage
@@ -244,6 +245,7 @@ const HomePage = ({ data }) => {
             ""
           )}
         </div>
+      */} 
       </div>
       <BlogListHome data={posts} />
     </Layout>

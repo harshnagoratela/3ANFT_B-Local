@@ -6,10 +6,7 @@ import { RiMenu3Line, RiCloseLine } from "react-icons/ri"
 import Theme from "../components/theme"
 
 const MenuItems = [
-  {
-    path: "/",
-    title: "Home",
-  },
+
   {
     path: "/about",
     title: "About",
