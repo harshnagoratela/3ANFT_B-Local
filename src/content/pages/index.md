@@ -9,4 +9,4 @@ cta:
   ctaText: Listen
   ctaLink: /about
 ---
-All About Affordable NFT podcast is here to help folks go from 0 to 60 with NFTs without breaking the bank
+All About Affordable NFT podcast is here to help folks go from 0 to 60 with NFTs without breaking the bank. Hosts Andrew aka [Rantum ](twitter.com/rantumbits)and George from Mostly Stable on (ZED RUN), help navigate new projects, interview expert guests and explore NFT trends.
