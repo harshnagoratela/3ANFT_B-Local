@@ -7,4 +7,4 @@ All About Affordable NFT podcast is here to help folks go from 0 to 60 with NFTs
 
 **Whether you’re on your first or fiftieth NFT, Triple A will have something for you.**
 
-![3A NFT Logo](/assets/3anft-logo-1-.png "Toys3A NFT Logo")
+![3A NFT Logo](/assets/3anft-logo-1-.png "3A NFT Logo")
