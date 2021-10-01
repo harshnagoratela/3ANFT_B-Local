@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: Cheat Sheet For ZED RUN
-slug: ZED RUN
+slug: /zed-run
 date: 2021-09-15 20:37
 description: Cheat sheet to URLs, podcasts and thought leaders in ZED.run - the
   digital NFT Horse Racing Game
