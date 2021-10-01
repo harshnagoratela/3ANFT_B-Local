@@ -208,16 +208,14 @@ const HomePage = ({ data }) => {
           >
             {frontmatter.tagline}
           </p>
-          <div
-            className="description"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
+
           <Link
             to={frontmatter.cta.ctaLink}
             className="button"
             sx={{
               variant: "variants.button",
             }}
+            target="_blank"
           >
             {frontmatter.cta.ctaText}
             <span className="icon -right">
@@ -235,8 +233,16 @@ const HomePage = ({ data }) => {
           </div>
           */}
         </div>
-        {/*
+        {
+          <div
+            className="description"
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+
+          /*
         <div>
+
+
           {Image ? (
             <GatsbyImage
               image={Image}

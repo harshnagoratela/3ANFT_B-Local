@@ -77,6 +77,7 @@ const navStyle = {
   menu: {
     ul: {
       bg: "siteColor",
+      
     },
   },
   theme: {

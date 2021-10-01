@@ -7,7 +7,7 @@ const theme = {
     text: "#000",
     background: "#fff",
     primary: "#5C2941",
-    accent: "#fff",
+    accent: "#03989E",
     muted: "rgba(0, 0, 0, 0.7)",
     cardBg: "#fff",
     borderColor: "#540229",
@@ -25,7 +25,7 @@ const theme = {
         background: "#111",
         primary: "#252525",
         accent: "#5C2941",
-        muted: "rgba(255, 255, 255, 0.7)",
+        muted: "#03989E",
         cardBg: "#252525",
         borderColor: "#888",
         labelText: "#777",
@@ -50,7 +50,7 @@ const theme = {
   },
   variants: {
     button: {
-      bg: "siteColor",
+      bg: "#03989E",
       color: "buttonColor",
       "&:hover": {
         bg: "buttonHoverBg",

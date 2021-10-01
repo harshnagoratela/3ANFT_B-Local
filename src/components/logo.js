@@ -11,8 +11,10 @@ const Logo = props => (
       alt="3A NFT Podcast "
       placeholder="blurred"
       layout="fixed"
-      width={80}
-      height={80}
+      width={100}
+      height={100}
+      border="4px solid white"
+      
     />
 
     </Link>
