@@ -96,6 +96,13 @@ module.exports = {
     },
     `gatsby-plugin-sitemap`,
     {
+      resolve: `gatsby-source-rss-feed`,
+      options: {
+        url: `https://feed.podbean.com/AffordableNFT/feed.xml`,
+        name: `Episodes`,
+      }
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Foundation`,

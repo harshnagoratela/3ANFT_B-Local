@@ -23,6 +23,7 @@ import { FaWordpress, FaVk } from "react-icons/fa"
 
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
+import EpisodeList from "../components/episode-list"
 import Seo from "../components/seo"
 import Icons from "../util/socialmedia.json"
 
@@ -67,11 +68,29 @@ export const pageQuery = graphql`
         }
       }
     }
+
+    episodes: allFeedEpisodes(
+      sort: {fields: isoDate, order: DESC}, 
+      limit: 6
+    ) {
+      edges {
+        node {
+          id
+          title
+          date: isoDate(formatString: "MMMM DD, YYYY")
+          link
+          content {
+            encoded
+            encodedSnippet
+          }
+        }
+      }
+    }
   }
 `
 
 const HomePage = ({ data }) => {
-  const { markdownRemark, posts } = data // data.markdownRemark holds your post data
+  const { markdownRemark, posts, episodes } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   const Image = frontmatter.featuredImage
     ? frontmatter.featuredImage.childImageSharp.gatsbyImageData
@@ -256,6 +275,7 @@ const HomePage = ({ data }) => {
       */}
       </div>
       <BlogListHome data={posts} />
+      <EpisodeList data={episodes} />
     </Layout>
   )
 }
