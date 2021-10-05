@@ -10,7 +10,7 @@ const EpisodeCard = ({ data }) => (
       bg: "cardBg",
     }}
   >
-    <a href={data.link} target="_blank">
+    <Link to={'/episodes/'+data.fields.slug}>
       {data.featuredImage ? (
         <GatsbyImage
           image={data.featuredImage.childImageSharp.gatsbyImageData}
@@ -24,17 +24,17 @@ const EpisodeCard = ({ data }) => (
           className="featured-image"
         />
       )}
-    </a>
+    </Link>
     <div className="post-content">
       <h2 className="title">
-        <a
-          href={data.link}
+      <Link 
+          to={'/episodes/'+data.fields.slug}
           sx={{
             variant: "links.postLink",
           }}
         >
           {data.title}
-        </a>
+        </Link>
       </h2>
       <p
         className="meta"

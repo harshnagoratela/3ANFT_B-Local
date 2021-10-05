@@ -1,5 +1,14 @@
 const path = require("path")
+const slugify = require('slugify')
 const { createFilePath } = require(`gatsby-source-filesystem`)
+
+const getSlugFromTitle = (title) => {
+  const slug = slugify(title, {
+    lower: true,
+    remove: /[*+~.()'"!:@?]/g,
+  })
+  return slug;
+}
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
@@ -20,6 +29,16 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           }
         }
       }
+
+      episodes: allFeedEpisodes {
+        edges {
+          node {
+            id
+            title
+          }
+        }
+      }
+
     }
   `)
 
@@ -57,6 +76,26 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     }
   })
 
+  //Create Episode pages
+  const episodes = result.data.episodes && result.data.episodes.edges;
+
+  episodes && episodes.forEach((episode, index) => {
+    const id = episode.node.id
+    const title = episode.node.title
+    const slug = getSlugFromTitle(title)
+    // console.log(title, " ***** ", slug)
+    createPage({
+      path: '/episodes/'+slug,
+      component: path.resolve(
+        `src/templates/episode-page.js`
+      ),
+      // additional data can be passed via context
+      context: {
+        id,
+      },
+    })
+  })
+
   // Create blog-list pages
   const postsPerPage = 9
   const numPages = Math.ceil(blogPostsCount / postsPerPage)
@@ -79,6 +118,14 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
     const slug = createFilePath({ node, getNode, basePath: `pages` })
+    createNodeField({
+      node,
+      name: `slug`,
+      value: slug,
+    })
+  }
+  if (node.internal.type === `FeedEpisodes`) {
+    const slug = getSlugFromTitle(node.title)
     createNodeField({
       node,
       name: `slug`,

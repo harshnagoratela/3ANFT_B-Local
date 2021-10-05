@@ -49,6 +49,7 @@
     "react-dom": "^16.14.0",
     "react-helmet": "^6.0.0",
     "react-icons": "^3.11.0",
+    "slugify": "^1.6.1",
     "theme-ui": "^0.6.0"
   },
   "devDependencies": {}

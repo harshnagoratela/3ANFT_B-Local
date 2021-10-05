@@ -77,6 +77,9 @@ export const pageQuery = graphql`
         node {
           id
           title
+          fields {
+            slug
+          }
           date: isoDate(formatString: "MMMM DD, YYYY")
           link
           content {

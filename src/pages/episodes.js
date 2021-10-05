@@ -30,6 +30,9 @@ export const episodesListQuery = graphql`
         node {
           id
           title
+          fields {
+            slug
+          }
           date: isoDate(formatString: "MMMM DD, YYYY")
           link
           content {
