@@ -12,6 +12,10 @@ const MenuItems = [
     title: "About",
   },
   {
+    path: "/episodes",
+    title: "Podcast",
+  },
+  {
     path: "/resources",
     title: "Resources",
   },
@@ -77,7 +81,7 @@ const navStyle = {
   menu: {
     ul: {
       bg: "siteColor",
-      
+
     },
   },
   theme: {
