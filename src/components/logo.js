@@ -9,7 +9,7 @@ const Logo = props => (
     <StaticImage
       src="https://i.imgur.com/nu1zyDDm.jpg"
       alt="3A NFT Podcast "
-      placeholder="blurred"
+      placeholder="none"
       layout="fixed"
       width={100}
       height={100}

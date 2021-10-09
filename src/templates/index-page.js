@@ -20,6 +20,7 @@ import {
   RiBehanceFill,
 } from "react-icons/ri"
 import { FaWordpress, FaVk } from "react-icons/fa"
+import { SiSpotify, SiApplepodcasts, SiGooglepodcasts } from "react-icons/si"
 
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
@@ -244,7 +245,23 @@ const HomePage = ({ data }) => {
               <RiArrowRightSLine />
             </span>
           </Link>
-            {/*
+          <div
+            className="social-icons"
+            sx={{
+              variant: "variants.socialIcons",
+            }}
+          >
+            <Link to={`https://podcasts.apple.com/us/podcast/all-about-affordable-nfts/id1586490838`} target="_blank">
+              <SiApplepodcasts />
+            </Link>
+            <Link to={`https://open.spotify.com/show/4JPeNkNEtJc2rAzdCMlRWl?si=1b961d00601240fa`} target="_blank">
+              <SiSpotify />
+            </Link>
+            <Link to={`https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL0FmZm9yZGFibGVORlQvZmVlZC54bWw?sa=X&ved=0CAMQ4aUDahcKEwiQ0Y7lo7rzAhUAAAAAHQAAAAAQAQ&hl=en`} target="_blank">
+              <SiGooglepodcasts />
+            </Link>
+          </div>
+          {/*             
           <div
             className="social-icons"
             sx={{

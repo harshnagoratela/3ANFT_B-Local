@@ -138,9 +138,9 @@
   font-size: 35px;
   display: flex;
   gap: 16px;
-  margin-top: 80px;
+  margin-top: 1rem;
   @media (max-width: $breakpoint-md) {
-    margin-top: 40px;
+    // margin-top: 0.5rem;
   }
 }
 .home-posts {
@@ -354,6 +354,10 @@ article img {
   a:hover {
     color: #fff;
   }
+}
+
+.podplayer {
+  padding-bottom: 2rem;
 }
 
 .pagination {
